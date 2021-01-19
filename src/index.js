@@ -9,6 +9,7 @@ import Squares from './components/Squares';
 import Programmers from './components/Programmers';
 //stretch
 import Todos from './components/Todos';
+import TicTacToe from './components/TicTacToe';
 
 render(
   <>
@@ -19,6 +20,7 @@ render(
     <Squares />
     <Programmers />
     <Todos />
+    <TicTacToe />
   </>
   ,
   document.querySelector('#root')
